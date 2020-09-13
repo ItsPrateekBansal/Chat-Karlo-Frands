@@ -11,7 +11,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 //set static folder
 app.use(express.static(path.join(__dirname,'public')));
-
+const a="fda";
 const botName = "Chat_Karlo";
 
 //Run when client connects
